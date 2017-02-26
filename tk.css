@@ -1,0 +1,138 @@
+
+		.container{
+			width: 100%;
+			height: 100%;
+			background-color: #A9A9A9;
+			text-align: center;
+
+		}
+
+		h1{
+
+			border:1px solid black;
+			width: 300px;
+			height: 100px;
+			padding-top: 40px;
+			background-color: black;
+			color: white;	
+			box-shadow: 10px 10px 4px 0px;	
+
+		}
+
+		*{
+			margin: 0px;
+            padding: 0px;
+		}
+
+
+		.calculator{
+            border-radius: 20px;
+			background-color: black;
+			border:1px solid black;
+			width: 350px;
+			height: 300px;
+			position: absolute;
+			top:250px;
+			left: 500px;
+			box-shadow: 0px 0px 20px 5px;
+		}
+    
+#button_clear{
+    width: 50px;
+    height: 30px;
+    border-radius:20px;;
+    position: relative;
+    top: 30px;
+    left: 280px;
+}
+
+		.top_section{
+            border-radius: 20px;
+			background-color: #A9A9A9;
+			position: relative;
+			border:2px solid black;
+			width: 280px;
+			margin: 3px;
+			padding-left: 10px;
+			height:100px;
+		}
+
+		.bottom_section{
+			position: relative;
+            padding-left: 10px;
+			border:1px solid black;
+			width: 230px;
+			margin-top: 3px;
+			height:180px;	
+
+		}
+    input[type="button"],button{
+            border-radius: 20px;
+            
+			margin-top: 10px;
+			width: 40px;
+			height: 40px;
+            transition: 1s;
+		}
+			
+
+		li{
+            list-style-type: none;
+            display: inline;
+            padding-left: 10px;
+		}
+
+.nine_series,.six_series,.one_series{
+    width: 180px;
+    height: 50px;
+}
+
+.operations{
+    position: absolute;
+    left:200px;
+    top:0px;
+}
+.equals{
+    position: absolute;
+    left:250px;
+    top:0px;
+    
+}
+
+.operations li{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+input[type="button"]:hover,button:hover{
+    background-color: gray;
+    cursor: pointer;
+    
+
+    color: white;
+}
+
+
+		ol li{
+			position: relative;
+			top:-9px;
+            padding: 0px;
+			left:200px;
+            display: inherit;
+            width: 40px;
+            height: 32px;  
+		}
+
+
+
+.field{
+	position: relative;
+	top:70px;
+	left: 25px;
+	height: 30px;
+	width: 250px;
+	border-radius: 20px;
+	text-align: right;
+	font-size: 20px;
+}
+      

@@ -1,0 +1,69 @@
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="tk.css">
+	<script type="text/javascript" src="tk.js"></script>
+
+	<style>
+
+	</style>
+</head>
+<body >
+
+	<div class="container">
+		<h1>Making Calculator</h1>
+	</div>
+
+	<div class="calculator">
+		<div class="top_section">
+			<div id="data_field">
+				<input type="text" value="0" id="field" class="field">
+			</div>
+            <div class="clear_button">
+               <li id="button_clear">
+               	<input type="button" value="c" onclick="clear_space();">
+               </li>
+            </div> 
+
+			
+		</div>
+		<div class="bottom_section">
+            
+			
+				<div class="nine_series">
+					<ul>
+						<li ><input type="button" value="7" onclick="seven();"/></li>
+						<li ><input type="button" value="8" onclick="eight();"/></li>
+						<li ><input type="button" value="9" onclick="nine();"/></li>
+					</ul>
+				</div>
+				<div class="six_series">
+					<ul >
+						<li ><input type="button" value="4" onclick="four();"/></li>
+						<li ><input type="button" value="5" onclick="five();"/></li>
+						<li ><input type="button" value="6" onclick="six();"/></li>
+					</ul>
+				</div>
+				<div class="one_series">
+					<ul >
+						<li ><input type="button" value="1" onclick="one();"></li>
+						<li ><input type="button" value="2" onclick="two();"></li>
+						<li ><input type="button" value="3" onclick="three();"></li>
+						
+					</ul>
+					
+                <div class="operations">
+					<li ><input type="button" value="+" onclick="add();"></li>
+						<li ><input type="button" value="-" onclick="sub();"></li>   
+						<li ><input type="button" value="*" onclick="multiply();"></li>			
+				</div>	
+                    <div class="equals">
+					<li ><input type="button" value="/" onclick="divide();"></li>
+						<li ><input type="button" value="=" onclick="equal();"></li>   
+								
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

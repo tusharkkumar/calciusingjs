@@ -1,0 +1,32 @@
+<html>
+<head>
+	<title>cal</title>
+</head>
+<body>
+
+	<div>
+		first<input type="text" id="first_no"><br>
+		second<input type="text" id="second_no"><br>
+		<input type="submit" onclick="sum();">
+		<div id="result">
+		
+		</div>
+	</div>
+<script>
+	function sum(){
+		var first= document.getElementById('first_no').value;
+		var second= document.getElementById('second_no').value;
+		first=parseInt(first);
+		second=parseInt(second);
+		// window.alert(first+second);
+		document.getElementById('result').innerHTML=first+second;
+		
+
+
+
+		// body...
+	}
+</script>
+
+</body>
+</html>
